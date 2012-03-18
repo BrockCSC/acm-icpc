@@ -2,7 +2,7 @@
 
 ## Purpose
 
-A repository for the Brock ICPC team or students with interest in the ICPC.
+A repository along with a [wiki](https://github.com/BrockCSC/acm-icpc/wiki) for the Brock ICPC team or students with interest in the ICPC.
 
 Post your solutions, libraries, or anything you think is helpful.
 
