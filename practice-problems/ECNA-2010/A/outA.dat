@@ -1,0 +1,434 @@
+Case 1:
+Hole 1: 1, 2
+
+Case 2:
+Hole 1: 3, 5
+Hole 2: 2, 6
+Hole 3: 1, 4
+
+Case 3:
+Hole 1: 1, 2
+
+Case 4:
+Hole 1: 13, 18
+Hole 2: 5, 12
+Hole 3: 2, 20
+Hole 4: 8, 17
+Hole 5: 1, 19
+Hole 6: 7, 16
+Hole 7: 11, 14
+Hole 8: 3, 10
+Hole 9: 6, 9
+Hole 10: 4, 15
+
+Case 5:
+Hole 1: 1, 2
+
+Case 6:
+Hole 1: 1, 4
+Hole 2: 6, 15
+Hole 3: 5, 8
+Hole 4: 13, 17
+Hole 5: 7, 12
+Hole 6: 18, 19
+Hole 7: 2, 14
+Hole 8: 3, 11
+Hole 9: 9, 16
+Hole 10: 10, 20
+
+Case 7:
+Hole 1: 1, 2
+
+Case 8:
+Hole 1: 1, 7
+Hole 2: 6, 10
+Hole 3: 5, 9
+Hole 4: 2, 3
+Hole 5: 4, 8
+
+Case 9:
+Hole 1: 8, 9
+Hole 2: 1, 10
+Hole 3: 3, 7
+Hole 4: 2, 11
+Hole 5: 5, 12
+Hole 6: 4, 6
+
+Case 10:
+Hole 1: 1, 8
+Hole 2: 4, 10
+Hole 3: 3, 14
+Hole 4: 6, 13
+Hole 5: 9, 12
+Hole 6: 5, 11
+Hole 7: 2, 7
+
+Case 11:
+Hole 1: 5, 8
+Hole 2: 11, 15
+Hole 3: 16, 19
+Hole 4: 1, 12
+Hole 5: 7, 13
+Hole 6: 18, 21
+Hole 7: 17, 20
+Hole 8: 22, 24
+Hole 9: 10, 23
+Hole 10: 2, 4
+Hole 11: 3, 9
+Hole 12: 6, 14
+
+Case 12:
+Hole 1: 9, 24
+Hole 2: 5, 25
+Hole 3: 8, 17
+Hole 4: 7, 12
+Hole 5: 1, 13
+Hole 6: 3, 19
+Hole 7: 4, 10
+Hole 8: 11, 15
+Hole 9: 16, 22
+Hole 10: 6, 21
+Hole 11: 2, 26
+Hole 12: 14, 18
+Hole 13: 20, 23
+
+Case 13:
+Hole 1: 24, 26
+Hole 2: 2, 13
+Hole 3: 19, 21
+Hole 4: 4, 23
+Hole 5: 10, 14
+Hole 6: 6, 17
+Hole 7: 11, 20
+Hole 8: 3, 16
+Hole 9: 1, 25
+Hole 10: 9, 15
+Hole 11: 5, 7
+Hole 12: 8, 12
+Hole 13: 18, 28
+Hole 14: 22, 27
+
+Case 14:
+Hole 1: 8, 31
+Hole 2: 13, 34
+Hole 3: 24, 37
+Hole 4: 27, 40
+Hole 5: 4, 11
+Hole 6: 10, 15
+Hole 7: 14, 38
+Hole 8: 2, 19
+Hole 9: 12, 21
+Hole 10: 16, 39
+Hole 11: 6, 29
+Hole 12: 25, 26
+Hole 13: 30, 35
+Hole 14: 20, 22
+Hole 15: 1, 17
+Hole 16: 23, 28
+Hole 17: 9, 33
+Hole 18: 3, 32
+Hole 19: 18, 36
+Hole 20: 5, 7
+
+Case 15:
+Hole 1: 5, 28
+Hole 2: 18, 37
+Hole 3: 15, 19
+Hole 4: 29, 33
+Hole 5: 13, 34
+Hole 6: 6, 22
+Hole 7: 1, 36
+Hole 8: 3, 21
+Hole 9: 17, 24
+Hole 10: 2, 32
+Hole 11: 7, 16
+Hole 12: 35, 38
+Hole 13: 4, 27
+Hole 14: 23, 26
+Hole 15: 14, 31
+Hole 16: 25, 40
+Hole 17: 11, 20
+Hole 18: 10, 39
+Hole 19: 8, 9
+Hole 20: 12, 30
+
+Case 16:
+Hole 1: 22, 36
+Hole 2: 24, 28
+Hole 3: 3, 16
+Hole 4: 29, 34
+Hole 5: 1, 10
+Hole 6: 17, 21
+Hole 7: 4, 13
+Hole 8: 2, 35
+Hole 9: 11, 33
+Hole 10: 5, 38
+Hole 11: 7, 37
+Hole 12: 27, 39
+Hole 13: 8, 30
+Hole 14: 9, 26
+Hole 15: 18, 25
+Hole 16: 23, 40
+Hole 17: 12, 20
+Hole 18: 6, 14
+Hole 19: 15, 32
+Hole 20: 19, 31
+
+Case 17:
+Hole 1: 3, 8
+Hole 2: 7, 9
+Hole 3: 6, 10
+Hole 4: 4, 5
+Hole 5: 1, 2
+
+Case 18:
+Hole 1: 4, 13
+Hole 2: 1, 11
+Hole 3: 7, 14
+Hole 4: 10, 15
+Hole 5: 9, 16
+Hole 6: 6, 12
+Hole 7: 5, 8
+Hole 8: 2, 3
+
+Case 19:
+Hole 1: 1, 2
+Hole 2: 3, 5
+Hole 3: 4, 6
+
+Case 20:
+Hole 1: 1, 2
+Hole 2: 3, 5
+Hole 3: 4, 6
+
+Case 21:
+Hole 1: 5, 6
+Hole 2: 1, 3
+Hole 3: 2, 4
+
+Case 22:
+Hole 1: 3, 4
+Hole 2: 1, 5
+Hole 3: 2, 7
+Hole 4: 6, 9
+Hole 5: 8, 10
+
+Case 23:
+Hole 1: 16, 17
+Hole 2: 4, 32
+Hole 3: 12, 14
+Hole 4: 15, 33
+Hole 5: 27, 39
+Hole 6: 13, 26
+Hole 7: 9, 37
+Hole 8: 6, 20
+Hole 9: 2, 10
+Hole 10: 21, 36
+Hole 11: 8, 18
+Hole 12: 19, 31
+Hole 13: 11, 34
+Hole 14: 3, 40
+Hole 15: 5, 24
+Hole 16: 1, 22
+Hole 17: 28, 38
+Hole 18: 23, 25
+Hole 19: 29, 35
+Hole 20: 7, 30
+
+Case 24:
+Hole 1: 8, 30
+Hole 2: 27, 29
+Hole 3: 32, 36
+Hole 4: 4, 37
+Hole 5: 34, 40
+Hole 6: 12, 16
+Hole 7: 5, 11
+Hole 8: 7, 22
+Hole 9: 1, 20
+Hole 10: 17, 21
+Hole 11: 13, 38
+Hole 12: 10, 28
+Hole 13: 6, 23
+Hole 14: 25, 39
+Hole 15: 9, 31
+Hole 16: 3, 35
+Hole 17: 26, 33
+Hole 18: 15, 19
+Hole 19: 2, 14
+Hole 20: 18, 24
+
+Case 25:
+Hole 1: 17, 36
+Hole 2: 24, 28
+Hole 3: 1, 29
+Hole 4: 7, 33
+Hole 5: 19, 21
+Hole 6: 11, 30
+Hole 7: 8, 26
+Hole 8: 20, 23
+Hole 9: 9, 22
+Hole 10: 16, 40
+Hole 11: 3, 15
+Hole 12: 32, 39
+Hole 13: 4, 35
+Hole 14: 2, 27
+Hole 15: 13, 25
+Hole 16: 34, 37
+Hole 17: 14, 38
+Hole 18: 6, 10
+Hole 19: 5, 18
+Hole 20: 12, 31
+
+Case 26:
+Hole 1: 8, 40
+Hole 2: 10, 36
+Hole 3: 7, 23
+Hole 4: 14, 26
+Hole 5: 12, 27
+Hole 6: 18, 25
+Hole 7: 17, 34
+Hole 8: 16, 31
+Hole 9: 5, 33
+Hole 10: 19, 38
+Hole 11: 2, 22
+Hole 12: 28, 39
+Hole 13: 9, 15
+Hole 14: 6, 35
+Hole 15: 11, 37
+Hole 16: 24, 32
+Hole 17: 1, 4
+Hole 18: 20, 29
+Hole 19: 13, 30
+Hole 20: 3, 21
+
+Case 27:
+Hole 1: 27, 30
+Hole 2: 2, 38
+Hole 3: 15, 26
+Hole 4: 28, 37
+Hole 5: 14, 32
+Hole 6: 11, 33
+Hole 7: 7, 24
+Hole 8: 9, 22
+Hole 9: 12, 29
+Hole 10: 6, 18
+Hole 11: 23, 40
+Hole 12: 17, 31
+Hole 13: 21, 34
+Hole 14: 1, 16
+Hole 15: 13, 20
+Hole 16: 10, 39
+Hole 17: 5, 8
+Hole 18: 25, 36
+Hole 19: 4, 35
+Hole 20: 3, 19
+
+Case 28:
+Hole 1: 5, 15
+Hole 2: 9, 39
+Hole 3: 18, 25
+Hole 4: 24, 31
+Hole 5: 13, 21
+Hole 6: 2, 6
+Hole 7: 16, 34
+Hole 8: 12, 22
+Hole 9: 4, 8
+Hole 10: 14, 36
+Hole 11: 35, 37
+Hole 12: 20, 26
+Hole 13: 11, 38
+Hole 14: 1, 33
+Hole 15: 3, 23
+Hole 16: 28, 30
+Hole 17: 19, 27
+Hole 18: 7, 17
+Hole 19: 32, 40
+Hole 20: 10, 29
+
+Case 29:
+Hole 1: 7, 30
+Hole 2: 2, 37
+Hole 3: 9, 39
+Hole 4: 4, 31
+Hole 5: 5, 12
+Hole 6: 10, 26
+Hole 7: 21, 32
+Hole 8: 15, 35
+Hole 9: 24, 33
+Hole 10: 23, 28
+Hole 11: 14, 20
+Hole 12: 8, 38
+Hole 13: 18, 27
+Hole 14: 13, 36
+Hole 15: 22, 29
+Hole 16: 6, 17
+Hole 17: 1, 25
+Hole 18: 34, 40
+Hole 19: 16, 19
+Hole 20: 3, 11
+
+Case 30:
+Hole 1: 2, 3
+Hole 2: 6, 39
+Hole 3: 12, 17
+Hole 4: 23, 35
+Hole 5: 25, 34
+Hole 6: 31, 40
+Hole 7: 15, 30
+Hole 8: 1, 36
+Hole 9: 11, 19
+Hole 10: 8, 38
+Hole 11: 24, 37
+Hole 12: 20, 32
+Hole 13: 16, 27
+Hole 14: 5, 18
+Hole 15: 28, 29
+Hole 16: 9, 14
+Hole 17: 21, 33
+Hole 18: 4, 7
+Hole 19: 10, 13
+Hole 20: 22, 26
+
+Case 31:
+Hole 1: 9, 11
+Hole 2: 23, 24
+Hole 3: 2, 36
+Hole 4: 5, 8
+Hole 5: 4, 39
+Hole 6: 12, 13
+Hole 7: 7, 35
+Hole 8: 19, 22
+Hole 9: 15, 40
+Hole 10: 6, 32
+Hole 11: 17, 29
+Hole 12: 10, 37
+Hole 13: 25, 28
+Hole 14: 27, 34
+Hole 15: 30, 31
+Hole 16: 21, 38
+Hole 17: 1, 26
+Hole 18: 3, 14
+Hole 19: 18, 20
+Hole 20: 16, 33
+
+Case 32:
+Hole 1: 33, 40
+Hole 2: 1, 9
+Hole 3: 10, 14
+Hole 4: 20, 23
+Hole 5: 5, 17
+Hole 6: 16, 36
+Hole 7: 6, 32
+Hole 8: 8, 19
+Hole 9: 15, 26
+Hole 10: 3, 22
+Hole 11: 25, 30
+Hole 12: 12, 38
+Hole 13: 7, 37
+Hole 14: 4, 34
+Hole 15: 13, 29
+Hole 16: 21, 31
+Hole 17: 2, 24
+Hole 18: 11, 39
+Hole 19: 27, 35
+Hole 20: 18, 28

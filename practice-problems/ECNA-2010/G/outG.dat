@@ -1,0 +1,1709 @@
+Case 1:
+vampire 1 east
+vampire 2 east north
+Case 2:
+none
+Case 3:
+vampire 1 east north south west
+vampire 2 east north south west
+vampire 3 east north south west
+vampire 4 east north south west
+Case 4:
+vampire 5 east
+vampire 6 east
+vampire 7 east
+vampire 8 east
+vampire 9 north
+vampire 10 north
+vampire 11 north
+vampire 12 north
+vampire 13 south
+vampire 14 south
+vampire 15 south
+vampire 17 west
+vampire 18 west
+vampire 19 west
+vampire 20 west
+Case 5:
+vampire 1 east north south west
+vampire 2 east north south west
+vampire 3 east north south west
+vampire 4 east north south west
+vampire 5 east north south west
+vampire 6 east north south west
+vampire 7 east north south west
+vampire 8 east north south west
+vampire 9 east north south west
+vampire 10 east north south west
+vampire 11 east north south west
+Case 6:
+vampire 1 east
+vampire 2 east
+vampire 3 east
+vampire 4 south
+vampire 5 south
+vampire 6 south
+vampire 7 west
+vampire 8 west
+vampire 9 west
+vampire 10 north
+vampire 11 north
+vampire 12 north
+Case 7:
+none
+Case 8:
+vampire 1 west
+vampire 2 south west
+vampire 3 north south west
+vampire 4 north west
+vampire 5 east west
+vampire 6 east south west
+vampire 7 east north south west
+vampire 8 east north west
+vampire 9 east
+vampire 10 east south
+vampire 11 east north south
+vampire 12 east north
+vampire 13 south
+vampire 14 north south
+vampire 15 north
+Case 9:
+vampire 1 east
+vampire 4 south
+vampire 7 west
+vampire 10 north
+Case 10:
+vampire 1 south
+vampire 2 north
+vampire 3 east
+vampire 4 east south
+vampire 5 east north
+vampire 6 west
+vampire 7 south west
+vampire 8 north west
+Case 11:
+none
+Case 12:
+vampire 11 north south
+Case 13:
+none
+Case 14:
+none
+Case 15:
+none
+Case 16:
+vampire 1 east south
+vampire 2 east
+vampire 4 west
+vampire 5 south
+vampire 8 south
+vampire 9 east south
+vampire 10 south west
+vampire 11 east west
+vampire 12 south
+vampire 13 west
+vampire 14 south west
+vampire 15 north south west
+vampire 16 north west
+vampire 17 east south
+vampire 18 south
+vampire 19 east
+vampire 20 north west
+vampire 21 east west
+vampire 22 east
+vampire 23 south west
+vampire 24 east
+vampire 26 north
+vampire 27 south
+vampire 29 south west
+vampire 30 east
+vampire 31 east west
+vampire 32 south
+vampire 33 east south
+vampire 34 south
+vampire 35 north south
+vampire 36 north
+vampire 37 north west
+vampire 38 east west
+vampire 39 west
+vampire 40 east south
+vampire 41 south
+vampire 43 north west
+vampire 45 east
+vampire 47 east north west
+vampire 48 south west
+vampire 49 east
+vampire 50 east
+vampire 51 south
+vampire 53 south west
+vampire 54 east south
+vampire 55 east west
+vampire 56 north
+vampire 58 west
+vampire 59 south
+vampire 60 west
+vampire 61 south
+vampire 62 south west
+vampire 63 south west
+vampire 64 west
+vampire 66 north
+vampire 67 south west
+vampire 69 south west
+vampire 70 east south
+vampire 71 south
+vampire 74 east south
+vampire 75 east west
+vampire 76 east south
+vampire 77 south
+vampire 78 south
+vampire 80 east
+vampire 85 west
+vampire 86 south west
+vampire 87 east west
+vampire 88 south west
+vampire 89 east
+vampire 90 north south west
+vampire 92 north
+vampire 93 south
+Case 17:
+vampire 1 west
+vampire 2 west
+vampire 4 west
+vampire 6 north south
+vampire 7 east north
+vampire 8 north
+vampire 10 east
+vampire 11 north south
+vampire 12 north south
+vampire 14 east west
+vampire 15 east
+vampire 16 east north
+vampire 17 east west
+vampire 19 east north
+vampire 20 west
+vampire 21 west
+vampire 22 south
+vampire 24 east west
+vampire 25 north south west
+vampire 26 west
+vampire 27 east
+vampire 28 south west
+vampire 29 south west
+vampire 30 west
+vampire 31 east
+vampire 32 west
+vampire 33 east north west
+vampire 34 north south
+vampire 35 north
+vampire 36 north
+vampire 37 west
+vampire 38 west
+vampire 39 north south
+vampire 40 west
+vampire 41 east
+vampire 42 south
+vampire 43 north west
+vampire 44 north south west
+vampire 45 north
+vampire 46 east north
+vampire 48 east
+vampire 50 east north west
+vampire 51 east west
+vampire 54 north
+vampire 55 west
+vampire 57 south
+vampire 58 east north
+vampire 59 east south west
+vampire 60 east
+vampire 62 west
+vampire 63 east
+vampire 64 west
+vampire 65 south
+vampire 67 south west
+vampire 68 south
+vampire 69 east west
+vampire 70 west
+vampire 71 west
+Case 18:
+vampire 3 east
+vampire 5 south west
+vampire 6 west
+vampire 7 north
+vampire 8 south west
+vampire 11 east south
+vampire 12 north
+vampire 13 north west
+vampire 14 south west
+vampire 15 east south
+vampire 17 west
+vampire 19 north
+vampire 20 east
+vampire 21 north west
+vampire 22 south
+vampire 27 west
+vampire 28 west
+vampire 29 north
+vampire 30 north west
+vampire 31 east
+vampire 32 east
+vampire 33 west
+Case 19:
+vampire 2 west
+vampire 3 north south west
+vampire 4 east north south
+vampire 6 east north south
+vampire 7 east north west
+vampire 8 north west
+vampire 9 north west
+vampire 10 south west
+vampire 11 north
+vampire 13 east
+vampire 15 north
+vampire 16 north south
+vampire 18 south west
+vampire 19 east
+vampire 20 north
+vampire 21 east
+vampire 22 south
+vampire 23 north
+vampire 24 east north
+vampire 25 south
+vampire 26 north south
+vampire 27 south west
+vampire 30 south west
+vampire 31 north
+vampire 32 east north
+vampire 33 east
+vampire 34 north
+vampire 35 east south
+vampire 36 east south
+Case 20:
+vampire 1 south west
+vampire 2 north west
+vampire 4 east north
+vampire 6 north south
+vampire 7 east north west
+vampire 8 north
+vampire 9 east north
+vampire 12 north
+vampire 13 south west
+vampire 15 west
+Case 21:
+vampire 1 south
+vampire 2 east north
+vampire 3 east
+vampire 4 north
+vampire 5 east north south
+vampire 6 east west
+vampire 7 west
+vampire 8 south
+vampire 9 east north south
+vampire 10 west
+vampire 11 east west
+vampire 12 south
+vampire 13 north west
+vampire 14 north
+vampire 16 east
+vampire 17 east
+vampire 18 east north south west
+vampire 19 east south
+Case 22:
+vampire 1 north south west
+vampire 2 south
+vampire 4 south west
+vampire 5 north
+vampire 6 north south
+vampire 7 north west
+vampire 8 south
+vampire 9 south west
+vampire 10 south west
+vampire 12 north
+vampire 13 west
+vampire 14 south west
+vampire 15 west
+vampire 16 west
+vampire 17 east south
+vampire 18 east
+vampire 19 north
+vampire 20 south west
+vampire 21 south
+vampire 22 north
+vampire 23 east south west
+vampire 25 south
+vampire 26 east north
+vampire 27 east
+vampire 28 east
+vampire 29 north west
+vampire 30 west
+vampire 31 south
+vampire 32 south west
+vampire 34 south west
+vampire 36 north west
+vampire 37 west
+vampire 38 north west
+vampire 39 north south
+vampire 41 north south west
+vampire 42 east north west
+vampire 43 west
+vampire 44 east
+vampire 45 east
+vampire 47 east north
+vampire 48 east
+vampire 49 north
+vampire 52 south
+vampire 53 south
+vampire 54 east north
+vampire 55 east
+vampire 56 west
+Case 23:
+vampire 1 south
+vampire 2 east west
+vampire 8 south
+vampire 9 west
+vampire 10 north
+vampire 11 east north
+vampire 12 east north
+vampire 13 east
+vampire 14 south
+vampire 15 north
+vampire 17 east
+vampire 19 east south west
+vampire 21 east north
+vampire 23 south west
+vampire 25 east west
+vampire 27 south
+vampire 30 east west
+vampire 31 east south
+vampire 32 south
+vampire 33 south
+vampire 34 east south west
+vampire 35 north
+vampire 36 east south
+vampire 37 east
+vampire 38 east south
+vampire 39 north
+vampire 40 east north
+vampire 42 east south
+vampire 44 north
+vampire 45 south west
+vampire 47 south
+vampire 48 east north
+vampire 49 north
+vampire 50 east north south
+vampire 51 south
+vampire 52 west
+vampire 53 west
+vampire 54 east west
+vampire 56 west
+vampire 60 south west
+vampire 61 north
+vampire 63 east south
+vampire 64 south
+vampire 65 east
+vampire 66 north south
+vampire 68 east south west
+vampire 71 south west
+vampire 72 south
+vampire 74 north
+vampire 75 west
+vampire 76 east south
+vampire 77 south west
+vampire 78 south
+vampire 79 east
+vampire 80 east
+vampire 82 south west
+vampire 83 east north
+vampire 84 south
+vampire 85 south west
+vampire 86 east south west
+vampire 87 south
+vampire 89 south west
+vampire 93 west
+vampire 95 east north
+vampire 96 west
+vampire 97 south
+vampire 98 west
+vampire 99 south
+vampire 101 south
+vampire 102 east north south
+vampire 104 east south
+vampire 105 east south
+vampire 107 north
+vampire 108 west
+vampire 109 south
+vampire 111 south
+vampire 112 east west
+vampire 114 east south
+vampire 116 west
+vampire 118 west
+vampire 119 east south
+vampire 121 east south west
+vampire 122 east
+vampire 124 west
+vampire 126 east south
+vampire 128 east
+vampire 130 south west
+vampire 131 east
+vampire 132 north south
+vampire 133 north south
+vampire 134 south
+vampire 135 west
+vampire 137 east south
+vampire 138 south west
+vampire 140 north
+vampire 144 south
+vampire 145 east south
+vampire 147 south
+vampire 149 south
+vampire 151 west
+vampire 152 east north west
+vampire 153 east west
+vampire 155 south west
+vampire 156 south
+vampire 157 east north
+vampire 158 east
+vampire 159 south west
+vampire 163 north south
+vampire 164 south west
+vampire 165 south
+vampire 166 north south
+vampire 168 east north
+vampire 169 south
+vampire 171 south
+vampire 172 east
+vampire 173 south
+vampire 174 north
+vampire 175 south
+vampire 176 west
+vampire 177 north
+vampire 179 east
+vampire 182 east
+vampire 183 south
+vampire 184 east north
+vampire 185 south
+vampire 186 south
+vampire 187 east west
+vampire 188 north
+vampire 189 north
+vampire 191 east
+vampire 193 east south
+vampire 194 west
+vampire 195 south west
+vampire 196 east south west
+vampire 197 south
+vampire 198 north
+vampire 199 south west
+vampire 201 west
+vampire 202 south
+vampire 203 east south
+vampire 206 south west
+vampire 208 north south west
+vampire 210 south west
+vampire 211 west
+vampire 212 east south
+vampire 213 south
+vampire 214 north
+vampire 215 north
+vampire 216 west
+vampire 217 north
+vampire 218 east north
+vampire 219 north
+vampire 220 south
+vampire 222 south
+vampire 225 east
+vampire 226 east south west
+vampire 227 east west
+vampire 228 south
+vampire 229 east south
+vampire 230 south
+vampire 233 east south west
+vampire 236 south
+vampire 237 east north
+vampire 238 south
+vampire 240 south
+vampire 242 east north
+vampire 243 north west
+vampire 244 north
+vampire 245 east
+vampire 246 east west
+vampire 248 west
+vampire 249 west
+vampire 250 east
+vampire 251 east north south
+vampire 252 south
+vampire 253 south
+vampire 255 west
+vampire 256 south
+vampire 258 west
+vampire 259 east south
+vampire 260 south
+vampire 261 south
+vampire 262 south
+vampire 263 east
+vampire 264 north
+vampire 266 north
+vampire 267 west
+vampire 272 south
+vampire 273 west
+vampire 274 east south
+vampire 275 east
+vampire 276 east
+vampire 277 west
+vampire 278 west
+vampire 279 east south
+vampire 280 south west
+vampire 281 north south
+vampire 282 west
+vampire 283 east
+vampire 284 west
+vampire 285 east west
+vampire 286 south
+vampire 287 east
+vampire 288 east south west
+vampire 289 south
+vampire 292 east
+vampire 293 west
+vampire 295 north south west
+vampire 297 east
+vampire 298 north south west
+vampire 300 south
+vampire 301 east north
+vampire 302 east south west
+vampire 303 east south
+vampire 304 north
+vampire 305 south
+vampire 306 west
+vampire 307 east west
+vampire 308 east
+vampire 309 east west
+vampire 310 north
+vampire 311 south
+vampire 314 north
+vampire 316 east south west
+vampire 317 east
+vampire 320 north
+vampire 321 east north
+vampire 322 north
+vampire 323 north
+vampire 324 west
+vampire 325 north
+vampire 326 west
+vampire 327 east west
+vampire 329 south
+vampire 330 east south
+vampire 331 south west
+vampire 333 east north
+vampire 334 north south west
+vampire 336 south west
+vampire 337 east north south
+vampire 338 north south
+vampire 339 east
+vampire 340 north south west
+vampire 341 east west
+vampire 342 west
+vampire 343 east west
+vampire 344 south
+vampire 345 east
+vampire 346 east south west
+vampire 347 north south
+vampire 349 south
+vampire 350 east
+vampire 351 south west
+vampire 353 south
+vampire 354 east west
+vampire 355 north south
+vampire 361 east west
+vampire 362 east north
+vampire 363 north
+vampire 364 south west
+vampire 365 east north
+vampire 366 east west
+vampire 368 east north
+vampire 370 west
+vampire 371 east north
+vampire 372 west
+vampire 374 south
+vampire 375 west
+vampire 376 south
+vampire 377 east
+vampire 378 east north west
+vampire 379 west
+vampire 382 south
+vampire 383 west
+vampire 385 north
+vampire 386 north south
+vampire 387 south
+vampire 388 north
+vampire 392 east south west
+vampire 393 east
+vampire 395 south
+vampire 396 south
+vampire 398 south west
+vampire 400 east
+vampire 401 south
+vampire 402 north
+vampire 403 south
+vampire 404 east south west
+vampire 405 west
+vampire 406 east west
+vampire 408 west
+vampire 409 east
+vampire 411 south
+vampire 412 east north south
+vampire 414 north south
+vampire 415 east
+vampire 416 east north south
+vampire 418 east
+vampire 419 south
+vampire 421 east
+vampire 422 north south
+vampire 423 north south
+vampire 425 east west
+vampire 426 east west
+vampire 427 south
+vampire 428 north south
+vampire 429 north
+vampire 430 west
+vampire 431 north
+vampire 432 west
+vampire 433 west
+vampire 434 south
+vampire 435 south west
+vampire 437 south
+vampire 438 north
+vampire 439 east south
+vampire 440 east west
+vampire 441 south
+vampire 442 south
+vampire 443 west
+vampire 444 south west
+vampire 446 west
+vampire 447 south west
+vampire 448 south
+vampire 450 west
+vampire 452 south
+vampire 453 south
+vampire 456 north
+vampire 458 east north
+vampire 459 south
+vampire 461 east north south
+vampire 462 north
+vampire 463 south west
+vampire 464 east
+vampire 466 north
+vampire 468 west
+vampire 469 east south
+vampire 470 west
+vampire 471 south
+vampire 472 south
+vampire 474 west
+vampire 475 north south
+vampire 476 north south
+vampire 477 east north
+vampire 479 north
+vampire 482 east
+vampire 483 east north
+vampire 484 south
+vampire 486 east
+vampire 487 west
+vampire 488 east north south
+vampire 489 west
+vampire 490 west
+vampire 491 west
+vampire 493 south
+vampire 494 south
+vampire 495 south
+vampire 496 east south
+vampire 497 south
+vampire 498 south
+vampire 499 east south
+vampire 502 north
+vampire 503 west
+vampire 504 east north
+vampire 505 east
+vampire 506 east west
+vampire 508 south
+vampire 511 east south
+vampire 513 east south
+vampire 515 north
+vampire 516 west
+vampire 517 west
+vampire 518 south west
+vampire 519 north
+vampire 521 north
+vampire 523 east
+vampire 524 east north
+vampire 525 east north
+vampire 526 west
+vampire 527 south
+vampire 528 east
+vampire 529 south
+vampire 530 east
+vampire 532 east south
+vampire 533 west
+vampire 536 north
+vampire 537 west
+vampire 538 west
+vampire 539 north
+vampire 540 south
+vampire 541 south west
+vampire 543 east north south
+vampire 544 east north
+vampire 545 west
+vampire 546 east south west
+vampire 548 east west
+vampire 549 east north
+vampire 550 north south
+vampire 552 east north
+vampire 553 north west
+vampire 554 east
+vampire 555 south
+vampire 558 west
+vampire 559 west
+vampire 561 east south
+vampire 562 west
+vampire 564 east
+vampire 565 south
+vampire 566 south
+vampire 567 south
+vampire 568 east
+vampire 569 west
+vampire 570 east south
+vampire 571 south
+vampire 572 south
+vampire 574 west
+vampire 577 north
+vampire 578 east west
+vampire 579 south
+vampire 581 east south west
+vampire 582 east north
+vampire 584 east
+vampire 585 north south
+vampire 587 north
+vampire 588 south
+vampire 589 west
+vampire 590 south
+vampire 591 north
+vampire 592 south
+vampire 593 east
+vampire 594 south west
+vampire 595 south
+vampire 596 east west
+vampire 597 south
+vampire 598 south
+vampire 599 east
+vampire 600 east south
+vampire 602 south west
+vampire 603 south
+vampire 605 south
+vampire 606 south
+vampire 607 east south
+vampire 608 north south
+vampire 610 south
+vampire 612 north
+vampire 613 north south west
+vampire 614 east south
+vampire 615 south
+vampire 616 west
+vampire 617 north
+vampire 621 east south
+vampire 622 east south
+vampire 623 north
+vampire 624 north south
+vampire 625 north
+vampire 626 north south
+vampire 628 east
+vampire 629 east south
+vampire 631 west
+vampire 633 west
+vampire 634 west
+vampire 635 east south
+vampire 637 west
+vampire 638 north south
+vampire 639 south
+vampire 640 east
+vampire 641 south
+vampire 643 north
+vampire 644 west
+vampire 645 west
+vampire 646 north
+vampire 647 west
+vampire 648 south
+vampire 649 north west
+vampire 650 south
+vampire 651 south
+vampire 652 west
+vampire 653 south
+vampire 654 east
+vampire 655 east
+vampire 656 north
+vampire 657 south west
+vampire 660 west
+vampire 662 south
+vampire 663 west
+vampire 666 south
+vampire 669 south
+vampire 670 east
+vampire 671 east north
+vampire 672 east
+vampire 673 west
+vampire 674 south west
+vampire 676 north south west
+vampire 677 east south west
+vampire 678 north
+vampire 679 north
+vampire 680 east west
+vampire 683 south west
+vampire 684 north
+vampire 686 north
+vampire 688 north south
+vampire 689 east south west
+vampire 690 east south
+vampire 691 east
+vampire 693 east south west
+vampire 697 east
+vampire 699 east north west
+vampire 700 west
+vampire 701 south west
+vampire 702 west
+vampire 703 east south west
+vampire 704 north
+vampire 705 south
+vampire 706 south
+vampire 707 east
+vampire 708 east south
+vampire 709 west
+vampire 710 west
+vampire 711 south west
+vampire 713 north
+vampire 714 east south
+vampire 715 east
+vampire 716 west
+vampire 717 south
+vampire 719 south west
+vampire 720 west
+vampire 722 east
+vampire 723 west
+vampire 724 north
+vampire 725 west
+vampire 726 west
+vampire 727 north
+vampire 729 north
+vampire 730 south
+vampire 731 south
+vampire 732 north
+vampire 733 east north south
+vampire 734 west
+vampire 735 south west
+vampire 736 east
+vampire 737 west
+vampire 738 east
+vampire 739 east south west
+vampire 740 north
+vampire 741 east
+vampire 742 east south
+vampire 743 south
+vampire 744 north
+vampire 745 east south
+vampire 747 west
+vampire 748 south west
+vampire 749 east south
+vampire 750 east
+vampire 751 west
+vampire 752 south
+vampire 753 south
+vampire 754 west
+vampire 757 south
+vampire 758 east
+vampire 759 north
+vampire 760 east south
+vampire 761 west
+vampire 762 north
+vampire 763 east
+vampire 766 south
+vampire 767 west
+vampire 768 east south
+vampire 769 north
+vampire 770 west
+vampire 771 east west
+vampire 772 south west
+vampire 774 south west
+vampire 775 east south
+vampire 778 south
+vampire 779 east south
+vampire 780 south
+vampire 782 south
+vampire 783 south
+vampire 785 north
+vampire 787 east south west
+vampire 791 west
+vampire 792 south
+vampire 794 east south west
+vampire 797 north
+vampire 798 south
+vampire 800 north south
+vampire 801 north
+vampire 802 east north
+vampire 803 north
+vampire 804 east
+vampire 806 west
+vampire 807 south
+vampire 809 south
+vampire 810 north
+vampire 811 east south
+vampire 812 south
+vampire 814 north
+vampire 815 east south
+vampire 816 south
+vampire 817 east south
+vampire 818 east south west
+vampire 819 south
+vampire 820 south
+vampire 821 east
+vampire 823 north south
+vampire 824 south
+vampire 825 north
+vampire 826 west
+vampire 827 north
+vampire 828 north south
+vampire 830 west
+vampire 831 east north
+vampire 832 east
+vampire 837 north
+vampire 838 north south
+vampire 839 east south
+vampire 840 south west
+vampire 841 east
+vampire 842 east
+vampire 845 east
+vampire 846 south west
+vampire 847 south
+vampire 850 east south
+vampire 851 south
+vampire 852 east south west
+vampire 853 east north south west
+vampire 854 east
+vampire 857 east
+vampire 858 east south west
+vampire 859 east west
+vampire 860 south
+vampire 861 north
+vampire 862 south
+vampire 863 west
+vampire 864 west
+vampire 865 east south west
+vampire 866 north south
+vampire 867 east south
+vampire 869 north
+vampire 870 west
+vampire 871 east
+vampire 873 west
+vampire 875 south
+vampire 876 south
+vampire 877 north
+vampire 878 south
+vampire 880 south
+vampire 881 east north
+vampire 883 south
+vampire 884 south
+vampire 887 east south west
+vampire 889 south
+vampire 892 north
+vampire 893 south west
+vampire 900 south
+vampire 901 east south
+vampire 902 west
+vampire 903 west
+vampire 905 west
+vampire 906 south
+vampire 908 south
+vampire 909 east north
+vampire 910 east
+vampire 911 east
+vampire 912 south
+vampire 913 south
+vampire 914 west
+vampire 915 east west
+vampire 916 east
+vampire 917 south
+vampire 920 north south
+vampire 921 east south
+vampire 922 east
+vampire 923 east
+vampire 925 south
+vampire 929 east north
+vampire 931 south
+vampire 932 east west
+vampire 933 east north west
+vampire 934 south
+vampire 935 south
+vampire 938 south
+vampire 939 west
+vampire 940 east
+vampire 941 west
+vampire 943 west
+vampire 944 east
+vampire 945 west
+vampire 947 east south
+vampire 949 north south
+vampire 950 east west
+vampire 951 south
+vampire 952 west
+vampire 955 east south
+vampire 956 north south
+vampire 957 east west
+vampire 958 east south
+vampire 960 east north south
+vampire 961 east
+vampire 962 south
+vampire 963 west
+vampire 964 north
+vampire 965 east
+vampire 966 east north
+vampire 969 north
+vampire 970 east south
+vampire 971 east west
+vampire 972 north
+vampire 973 west
+vampire 974 south
+vampire 975 east south west
+vampire 976 north south
+vampire 977 east north
+vampire 978 east
+vampire 979 east
+vampire 980 south
+vampire 981 east
+vampire 982 south west
+vampire 985 east west
+vampire 986 south west
+vampire 988 east south
+vampire 989 east west
+vampire 992 north
+vampire 993 north
+vampire 994 north south
+vampire 997 east south west
+vampire 998 south west
+vampire 999 west
+vampire 1000 south
+vampire 1001 north
+vampire 1004 east
+vampire 1005 west
+vampire 1007 south west
+vampire 1010 east
+vampire 1011 north south west
+vampire 1012 east
+vampire 1015 west
+vampire 1016 north south
+vampire 1017 north
+vampire 1018 east north
+vampire 1019 east south
+vampire 1020 north south
+vampire 1022 east
+Case 24:
+vampire 1 north
+vampire 2 north south
+vampire 3 north south west
+vampire 4 north
+vampire 8 west
+vampire 10 north west
+vampire 11 north
+vampire 13 west
+vampire 14 east north south west
+vampire 18 north
+vampire 20 north south
+vampire 22 south
+vampire 23 east
+vampire 24 north
+vampire 25 south
+vampire 26 south
+vampire 27 east south west
+vampire 28 south
+vampire 30 south
+vampire 31 west
+vampire 32 north
+vampire 33 north
+vampire 34 south west
+vampire 35 east
+vampire 39 east
+vampire 41 north
+vampire 42 south
+vampire 47 south
+vampire 49 west
+vampire 51 south
+vampire 52 east west
+vampire 54 south
+vampire 55 south
+vampire 56 west
+vampire 57 south
+vampire 59 south
+vampire 62 west
+vampire 63 south
+vampire 64 east
+vampire 68 north
+vampire 69 west
+vampire 70 west
+vampire 72 east
+vampire 76 south
+vampire 78 east
+vampire 80 south
+vampire 82 south
+vampire 83 west
+vampire 87 south
+vampire 88 south
+vampire 89 south
+vampire 94 south
+vampire 96 south
+vampire 97 west
+vampire 98 east north
+vampire 100 north south
+vampire 102 south west
+vampire 110 south
+vampire 111 north
+vampire 112 south
+vampire 113 north
+vampire 118 south
+vampire 119 west
+vampire 120 east
+vampire 122 west
+vampire 124 south
+vampire 129 east north
+vampire 130 west
+vampire 133 north south
+vampire 134 south
+vampire 135 east
+vampire 138 west
+vampire 141 north
+vampire 142 west
+vampire 144 west
+vampire 149 south
+vampire 150 north
+vampire 152 west
+vampire 153 south
+vampire 155 south
+vampire 156 north
+vampire 157 north
+vampire 158 south
+vampire 159 east north south west
+vampire 160 north
+vampire 161 west
+vampire 165 south
+vampire 166 south
+vampire 168 south
+vampire 171 north south
+vampire 172 north
+vampire 174 south
+vampire 175 west
+vampire 179 east north
+vampire 182 south
+vampire 183 east south
+vampire 188 east south
+vampire 190 north
+vampire 194 east south west
+vampire 197 north
+vampire 198 east west
+vampire 199 west
+vampire 200 south
+vampire 204 east north
+vampire 205 east
+vampire 209 east
+vampire 213 east
+vampire 217 south
+vampire 218 east
+vampire 220 east west
+vampire 225 south
+vampire 227 south
+vampire 228 north
+vampire 229 north west
+vampire 230 east north west
+vampire 234 east
+vampire 236 north
+vampire 237 east west
+vampire 238 east north
+vampire 240 north
+vampire 241 south
+vampire 245 east
+vampire 246 south
+vampire 247 west
+vampire 248 north
+vampire 251 south west
+vampire 253 west
+vampire 254 west
+vampire 257 north
+vampire 258 south
+vampire 259 south
+vampire 260 south west
+vampire 261 south
+vampire 263 east south west
+vampire 264 south
+vampire 265 east west
+vampire 268 south
+vampire 269 east west
+vampire 270 north
+vampire 271 north west
+vampire 274 south
+vampire 277 west
+vampire 281 east north
+vampire 282 east
+vampire 284 north
+vampire 285 east south west
+vampire 286 west
+vampire 287 west
+vampire 288 west
+vampire 291 east
+vampire 294 south
+vampire 296 west
+vampire 297 east
+vampire 298 east west
+vampire 299 east north
+vampire 304 east
+vampire 305 west
+vampire 306 south
+vampire 307 south
+vampire 308 south
+vampire 311 south west
+vampire 313 east
+vampire 314 south
+vampire 315 south
+vampire 316 east south
+vampire 320 south
+vampire 322 east north
+vampire 325 east
+vampire 326 south
+vampire 327 west
+vampire 330 west
+vampire 331 east west
+vampire 332 east west
+vampire 333 north
+vampire 334 south
+vampire 335 east south
+vampire 336 east
+vampire 338 north
+vampire 339 west
+vampire 340 west
+vampire 342 north south west
+vampire 343 south
+vampire 344 east
+vampire 345 west
+vampire 348 west
+vampire 352 east south west
+vampire 354 east north
+vampire 355 south
+vampire 356 south
+vampire 359 east
+vampire 360 north
+vampire 362 north
+vampire 363 north
+vampire 364 north south west
+vampire 367 west
+vampire 371 south
+vampire 374 north
+vampire 378 south
+vampire 379 south west
+vampire 382 south
+vampire 385 south
+vampire 389 south west
+vampire 390 south
+vampire 392 west
+vampire 395 west
+vampire 397 east
+vampire 399 south
+vampire 401 west
+vampire 404 north
+vampire 407 south
+vampire 408 east west
+vampire 409 west
+vampire 410 north west
+vampire 411 east north
+vampire 412 south
+vampire 414 south
+vampire 415 east west
+vampire 417 south
+vampire 418 west
+vampire 421 west
+vampire 423 east north
+vampire 425 east
+vampire 427 east north west
+vampire 430 west
+vampire 432 north
+vampire 435 west
+vampire 437 north
+vampire 439 south
+vampire 441 north
+vampire 443 west
+vampire 446 south
+vampire 447 south
+vampire 448 north west
+vampire 449 west
+vampire 453 east north
+vampire 456 south
+vampire 458 east
+vampire 459 north
+vampire 460 south
+vampire 464 east
+vampire 465 north
+vampire 466 east
+vampire 468 north
+vampire 471 south
+vampire 472 east south
+vampire 473 south west
+vampire 475 east west
+vampire 476 north
+vampire 480 south
+vampire 482 east
+vampire 483 east west
+vampire 484 south
+vampire 488 east south
+vampire 489 east
+vampire 491 east north west
+vampire 492 south
+vampire 493 south
+vampire 495 north
+vampire 500 north
+vampire 502 east
+vampire 503 south
+vampire 506 east south
+vampire 509 west
+vampire 512 south
+vampire 514 west
+vampire 515 south
+vampire 516 east
+vampire 517 south
+vampire 519 north
+vampire 525 south
+vampire 526 south
+vampire 527 west
+vampire 528 north
+vampire 531 east north west
+vampire 533 south
+vampire 534 west
+vampire 536 south
+vampire 537 east north west
+vampire 542 south
+vampire 543 south west
+vampire 544 south
+vampire 548 south
+vampire 549 east
+vampire 551 east
+vampire 552 west
+vampire 554 east north south west
+vampire 556 north south
+vampire 558 east west
+vampire 559 north
+vampire 562 north
+vampire 563 south
+vampire 565 south west
+vampire 572 south
+vampire 573 west
+vampire 574 west
+vampire 578 north
+vampire 579 north
+vampire 580 west
+vampire 581 south
+vampire 582 west
+vampire 583 south west
+vampire 585 west
+vampire 589 south
+vampire 591 west
+vampire 594 west
+vampire 596 south
+vampire 597 east south west
+vampire 599 west
+vampire 600 east south west
+vampire 604 east north
+vampire 606 east
+vampire 607 west
+vampire 609 east south
+vampire 615 south west
+vampire 616 east
+vampire 617 east
+vampire 619 west
+vampire 620 south
+vampire 621 south west
+vampire 623 east north
+vampire 626 west
+vampire 628 north
+vampire 629 north west
+vampire 631 south
+vampire 632 south
+vampire 633 south
+vampire 634 west
+vampire 636 west
+vampire 640 south
+vampire 641 west
+vampire 643 north
+vampire 644 south
+vampire 645 east
+vampire 649 south
+vampire 651 north
+vampire 652 south
+vampire 653 west
+vampire 656 west
+vampire 657 south
+vampire 658 south
+vampire 659 south
+vampire 661 south
+vampire 662 south
+vampire 663 south
+vampire 665 east
+vampire 666 south
+vampire 667 north south west
+vampire 669 south
+vampire 670 west
+vampire 672 west
+vampire 676 south
+vampire 678 north south west
+vampire 679 east
+vampire 680 north
+vampire 681 north
+vampire 682 south
+vampire 684 north
+vampire 686 south
+vampire 687 west
+vampire 690 east north
+vampire 692 west
+vampire 693 south
+vampire 694 south
+vampire 696 west
+vampire 699 south
+vampire 701 north west
+vampire 702 east
+vampire 703 south
+vampire 706 north
+vampire 707 south
+vampire 708 south
+vampire 711 east
+vampire 712 south
+Case 25:
+vampire 1 north south
+vampire 6 south
+vampire 8 west
+vampire 9 north south
+vampire 12 east
+vampire 13 east
+vampire 16 east north
+vampire 20 north
+vampire 30 south
+vampire 31 east south
+vampire 38 south
+vampire 40 east
+vampire 41 west
+vampire 48 south west
+vampire 49 south
+vampire 61 west
+vampire 63 east
+vampire 64 south
+vampire 66 east
+vampire 67 west
+vampire 71 south
+vampire 74 north west
+vampire 75 north
+vampire 76 west
+vampire 78 south
+vampire 79 south
+vampire 81 west
+vampire 83 south west
+vampire 84 east north
+vampire 85 west
+vampire 87 west
+vampire 90 east
+vampire 91 south
+vampire 92 west
+vampire 93 north
+vampire 96 north
+vampire 98 east south
+vampire 102 north south
+vampire 107 west
+vampire 109 north
+vampire 112 north west
+vampire 115 east west
+vampire 116 south
+vampire 118 south
+vampire 120 east west
+vampire 123 west
+vampire 126 west
+vampire 127 east
+vampire 129 south
+vampire 132 east
+vampire 134 east west
+vampire 141 north south
+vampire 142 south
+vampire 143 north
+vampire 148 east
+vampire 149 west
+vampire 150 south
+vampire 151 south
+vampire 154 east south
+vampire 157 west
+vampire 158 north
+vampire 160 east
+vampire 161 north
+vampire 164 east south west
+vampire 165 south
+vampire 172 west
+vampire 173 north
+vampire 175 south
+vampire 177 south west
+vampire 181 west
+vampire 188 south
+vampire 192 north
+vampire 197 north
+vampire 198 north south
+vampire 199 east
+vampire 201 north
+vampire 202 west
+vampire 203 south
+vampire 204 south
+vampire 206 east
+vampire 207 east
+vampire 208 north south
+vampire 209 south
+vampire 212 north
+vampire 214 north
+vampire 219 west
+vampire 222 north
+vampire 223 east
+vampire 228 south
+vampire 231 north
+vampire 232 south
+vampire 237 east north
+vampire 245 north
+vampire 246 south west
+vampire 249 south
+vampire 254 east
+vampire 256 south west
+vampire 257 south
+vampire 258 north
+vampire 259 east
+vampire 265 north
+vampire 267 north
+vampire 270 south
+vampire 271 north south
+vampire 272 south
+vampire 273 east north
+vampire 274 west
+vampire 275 south
+vampire 280 east west
+vampire 283 north
+vampire 291 west
+vampire 293 east west
+vampire 297 west
+vampire 305 north
+vampire 306 east
+vampire 307 north
+vampire 308 east south
+vampire 311 south
+vampire 315 west
+vampire 316 south
+vampire 320 south
+vampire 325 east
+vampire 326 north
+vampire 327 north
+vampire 328 north south
+vampire 333 north
+vampire 335 west
+vampire 336 north
+vampire 337 south
+vampire 340 north
+vampire 342 east south west
+vampire 343 west
+vampire 344 north
+vampire 345 north south
+vampire 351 east south
+vampire 352 north
+vampire 355 north south
+vampire 358 east north
+vampire 359 east north south
+vampire 368 south west
+vampire 371 north
+vampire 375 north south
+vampire 376 north south
+vampire 378 north
+vampire 380 east
+vampire 381 east south
+vampire 382 south west
+vampire 383 south
+vampire 384 south
+vampire 385 south
+vampire 387 east
+vampire 388 south
+vampire 389 west
+vampire 394 north
+vampire 395 south
+vampire 398 east
+vampire 399 south
+vampire 402 north south
+vampire 404 south
+vampire 410 east south
+vampire 414 north
+vampire 417 north south
+vampire 418 south
+vampire 420 south
+vampire 422 east
+vampire 425 south
+vampire 431 south
+vampire 432 north south
+vampire 433 west
+vampire 436 east south
+vampire 437 north
+vampire 439 north
+vampire 440 east
+vampire 442 west
+vampire 448 north
+vampire 450 south
+vampire 451 north
+vampire 459 north south
+vampire 463 north
+vampire 464 south west
+vampire 465 west
+vampire 466 east west
+vampire 467 south
+vampire 469 east
+vampire 471 north
+vampire 477 south
+vampire 479 south
+vampire 482 east north
+vampire 483 north
+vampire 484 south
+vampire 485 east
+vampire 490 west
+vampire 492 east
+vampire 494 west
+vampire 497 north south
+vampire 498 north south
+vampire 499 east
+vampire 501 east
+vampire 502 north
+vampire 503 west
+vampire 504 east
+vampire 505 east
+vampire 506 east
+vampire 514 south
+vampire 516 east south
+vampire 519 south
+vampire 520 north
+vampire 521 north
+vampire 529 south
+vampire 533 south west
+vampire 537 east north
+vampire 543 east south
+vampire 544 south
+vampire 547 north south
+vampire 548 south
+vampire 556 north
+vampire 559 south west
+vampire 560 east
+vampire 564 south
+vampire 566 north
+vampire 567 south
+vampire 570 north
+vampire 571 east west
+vampire 574 north
+vampire 576 north
+vampire 578 north
+vampire 587 south
+vampire 594 south
+vampire 596 east
+vampire 597 north
+vampire 600 east north south
+vampire 601 north
+vampire 605 north south
