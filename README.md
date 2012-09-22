@@ -26,26 +26,21 @@ $ git push origin
 
 ### Java Tips
 
-For your submission to an online judge to work, you must name your source file `Main.java` (but not during actual competition, then you must name it after the problem letter). Put everything inside this file, do not use separate files for classes.
-
-To **compile** your Java source file: `javac Main.java`
-
-To **run and test** your program: `java Main < input.dat`
-
-You can combine these for ease: `javac Main.java && java Main < input.dat`
+- For your submission to an online judge to work, you must name your source file `Main.java` (but not during actual competition, then you must name it after the problem letter). Put everything inside this file, do not use separate files for classes.
+- Read input from `System.in`
+- To **compile** your Java source file: `javac Main.java`
+- To **run and test** your program: `java Main < input.dat`
+- You can combine these for ease: `javac Main.java && java Main < input.dat`
 
 
 ### C++ Tips
 
-Name your source file after the problem number (in actual competition it needs to be after the problem letter).
-
-To **compile** your C++ source file: `g++ 001.cc -o 001`
-
-Note that online judges will use these compiler options: `-lm -lcrypt -O2 -pipe -DONLINE_JUDGE`
-
-To **run and test** your program: `./001 < 001.dat`
-
-You can combine these for ease: `g++ 001.cc -o 001 && ./001 < 001.dat`
+- Name your source file after the problem number (in actual competition it needs to be after the problem letter).
+- Read input from `stdin`
+- To **compile** your C++ source file: `g++ 001.cc -o 001`
+- Note that online judges will use these compiler options: `-lm -lcrypt -O2 -pipe -DONLINE_JUDGE`
+- To **run and test** your program: `./001 < 001.dat`
+- You can combine these for ease: `g++ 001.cc -o 001 && ./001 < 001.dat`
 
 ### General Tips
 
