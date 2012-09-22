@@ -4,7 +4,7 @@
 
 A repository along with a [wiki](https://github.com/BrockCSC/acm-icpc/wiki) for the Brock ICPC team or students with interest in the ICPC.
 
-Post your solutions, libraries, or anything you think is helpful.
+Post your solutions, libraries, guides, tutorials, or anything you think is helpful.
 
 
 ## How to use
