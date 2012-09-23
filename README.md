@@ -27,7 +27,7 @@ $ git push origin
 ### Java Tips
 
 - For your submission to an online judge to work, you must name your source file `Main.java` (but not during actual competition, then you must name it after the problem letter). Put everything inside this file, do not use separate files for classes.
-- Read input from `System.in`
+- **Input** comes from `System.in`, **output** goes to `System.out`
 - To **compile** your Java source file: `javac Main.java`
 - To **run and test** your program: `java Main < input.dat`
 - You can combine these for ease: `javac Main.java && java Main < input.dat`
@@ -36,7 +36,7 @@ $ git push origin
 ### C++ Tips
 
 - Name your source file after the problem number (in actual competition it needs to be after the problem letter).
-- Read input from `stdin`
+- **Input** comes from `stdin` (`std::cin`), **output** goes to `stdout` (`std::cout`)
 - To **compile** your C++ source file: `g++ 001.cc -o 001`
 - Note that online judges will use these compiler options: `-lm -lcrypt -O2 -pipe -DONLINE_JUDGE`
 - To **run and test** your program: `./001 < 001.dat`
