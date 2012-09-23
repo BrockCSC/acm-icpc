@@ -1,5 +1,5 @@
-// JDK 1.5 Java Template for ICPC Online Judge.
-// Basic input/output with the Scanner class.
+// Basic input & output with the Scanner class.
+// You may also use the BufferedReader class, but it's more complicated.
 
 import java.util.Scanner;
 
