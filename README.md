@@ -47,3 +47,4 @@ $ git push origin
 - Use multiple terminal windows. Having to close your editor every time to compile and run your program is slow.
 - The best way to improve is to practice and solve more problems.
 - Choose your contest resources wisely and know how to use them well.
+- **Don't debug at the computer** during the actual contest. Print your code and switch spots with a teammate.
