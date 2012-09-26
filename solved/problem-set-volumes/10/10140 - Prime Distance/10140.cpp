@@ -16,7 +16,7 @@ vi _primes;
 void sieve(ll upperbound)
 {
   _sieve_size = upperbound + 1;
-  bs.set();  // set all bits to 1
+  bs.set();  // set all bits to 1 (assume all numbers are prime at first)
   bs[0] = bs[1] = 0;
   for (ll i = 2; i <= _sieve_size; ++i)
   {
