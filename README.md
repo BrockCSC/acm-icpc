@@ -6,14 +6,21 @@ A repository along with a [wiki](https://github.com/BrockCSC/acm-icpc/wiki) for 
 
 Post your solutions, libraries, guides, tutorials, or anything you think is helpful.
 
+**IMPORTANT**: I'm looking for someone (preferably at Brock) to adopt this project and maintain it. Please [contact me](http://dennisideler.com) if interested.
 
 ### Getting Started
 
-Familiarize yourself with the [wiki](https://github.com/BrockCSC/acm-icpc/wiki). Anyone can edit the wiki.
-To contribute to the repository, you must clone it first (or fork it if you're not part of the BrockCSC organization).
+Read the **[wiki](https://github.com/BrockCSC/acm-icpc/wiki)**. Anyone can edit the wiki.
+
+#### Contributing
+- Members of the *BrockCSC* organization have push and pull access, so you just need to clone this repo.
+- Non-members will have to fork it and send a pull request.
+- If you have no idea what any of that means, I suggest you read through the tutorials at http://help.github.com.
+
+
 It's generally neater to create a new branch for a new task and then merge it with the master branch upon completion.
 
-For example, if you want to work on problem #101 (and you use git via command line, otherwise ignore):
+For example, if you want to work on problem #101:
 
 ```
 $ git checkout -b 101
