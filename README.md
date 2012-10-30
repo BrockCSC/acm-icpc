@@ -57,3 +57,10 @@ $ git push origin
 - Use multiple terminal windows. Having to close your editor every time to compile and run your program is slow.
 - Choose your [printed notes](https://github.com/BrockCSC/acm-icpc/wiki/Online-Resources#wiki-books) wisely and know how/when to reference them.
 - Don't debug at the computer. Print your code and switch spots with a teammate.
+- You can break coding guidelines & styleguides for contest settings, so it's okay to use
+  - GOTOs
+  - structs
+  - hard to read code (keep in mind a teammate will need to understand your code if you need help)
+  - code templates that contain "ugly" code (e.g. `#define`s, `typedefs`)
+  - global variables
+  - public scope for everything
