@@ -51,7 +51,9 @@ $ git push origin
 
 ### General Tips
 
+- Practice! It's the most effective way to improve. Find problems [here](https://github.com/BrockCSC/acm-icpc/wiki/Online-Resources#wiki-practice).
+- Identify the easier problems and solve those first.
+  - Look at the live scoreboard to see which problems are quickly and often solved
 - Use multiple terminal windows. Having to close your editor every time to compile and run your program is slow.
-- The best way to improve is to practice and solve more problems.
-- Choose your contest resources wisely and know how to use them well.
-- **Don't debug at the computer** during the actual contest. Print your code and switch spots with a teammate.
+- Choose your [printed notes](https://github.com/BrockCSC/acm-icpc/wiki/Online-Resources#wiki-books) wisely and know how/when to reference them.
+- Don't debug at the computer. Print your code and switch spots with a teammate.
