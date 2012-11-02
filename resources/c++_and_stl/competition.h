@@ -34,8 +34,9 @@ typedef map<string, int>        msi;
 #define SQ(x)           ((x)*(x))
 #define getLastDigit(i) i%10
 #define remLastDigit(i) i/10
-//#define char2int(c)     c-'0' TODO: keep as define or as function (see below)?
-//memset(arr, 0, sizeof(arr)); // clear array of integers
+#define char2int(c)     c-0
+#define char2idx(c)     c-'a'
+#define clr(arr)        memset(arr, 0, sizeof(arr));
 
 const double PI=acos(-1.0); //NOTES: PI
 const double EPS=1e-11; //NOTES: EPS
@@ -48,7 +49,7 @@ bool isDigit(char c){return c>='0' && c<='9';} //NOTES: isDigit(
 char toLower(char c){return (isUpper(c))?(c+32):c;} //NOTES: toLower(
 char toUpper(char c){return (isLower(c))?(c-32):c;} //NOTES: toUpper(
 int str2int(string s){int r=0;istringstream sin(s);sin>>r;return r;} //NOTES: str2int(
-int char2int(char c){return c-'0';} //NOTES: char2int(
+int char2int(char c){return (int)c;} //NOTES: char2int(
 
 // Numeric functions
 bool isPowOf2(int i){return (i & i-1) == 0;} //NOTES: isPowOf2
