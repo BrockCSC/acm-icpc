@@ -16,6 +16,9 @@ Read the **[wiki](https://github.com/BrockCSC/acm-icpc/wiki)**. Anyone can edit 
 - Members of the *BrockCSC* organization have push and pull access, so you just need to clone this repo.
 - Non-members will have to fork it and send a pull request.
 - If you have no idea what any of that means, I suggest you read through the tutorials at http://help.github.com.
+- Please
+  - Place your solution in the appropriate location
+  - Add a README that explains the strategy you used to solve the problem
 
 
 It's generally neater to create a new branch for a new task and then merge it with the master branch upon completion.
