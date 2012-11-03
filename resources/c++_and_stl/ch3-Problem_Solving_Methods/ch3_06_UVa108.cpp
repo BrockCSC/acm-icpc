@@ -38,12 +38,11 @@ int main() { // O(n^4) DP solution
 
 
 /*
-// brute force, TLE
 #include <algorithm>
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() { // brute force, TLE
   int n, arr[101][101], maxSubRect, subRect;
 
   scanf("%d", &n);
