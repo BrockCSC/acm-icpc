@@ -15,7 +15,6 @@ bool compare_actors(Actor a, Actor b)
   return a.height > b.height;
 }
 
-// Note: vector of map<string, int> might be better?
 main()
 {
   int n;
