@@ -27,10 +27,10 @@ string int2str(int n)
 
 int bin2dec(string bin)
 {
-        int res = 0;
-        for (int i=bin.size()-1, j=0; i>=0; i--, j++)
-                res += (bin[i]-'0') * ((int) pow( (double) 2, (double) j)); // raise bits to appropriate power of 2
-        return res;
+  int res = 0;
+  for (int i=bin.size()-1, j=0; i>=0; i--, j++)
+    res += (bin[i]-'0') * ((int) pow( (double) 2, (double) j)); // raise bits to appropriate power of 2
+  return res;
 }
 
 int main()
