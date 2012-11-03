@@ -51,9 +51,11 @@ $ git push origin
 
 ### General Tips
 
-- Practice! It's the most effective way to improve. Find problems [here](https://github.com/BrockCSC/acm-icpc/wiki/Online-Resources#wiki-practice).
+- Practice! It's the most effective way to improve.
+  - Find problems [here](https://github.com/BrockCSC/acm-icpc/wiki/Online-Resources#wiki-practice).
+  - You get the most out of practice if you imitate contest conditions.
 - Identify the easier problems and solve those first.
-  - Look at the live scoreboard to see which problems are quickly and often solved
+  - Look at the live scoreboard to see which problems are quickly and often solved.
 - Use multiple terminal windows. Having to close your editor every time to compile and run your program is slow.
 - Choose your [printed notes](https://github.com/BrockCSC/acm-icpc/wiki/Online-Resources#wiki-books) wisely and know how/when to reference them.
 - Don't debug at the computer. Print your code and switch spots with a teammate.
@@ -61,6 +63,6 @@ $ git push origin
   - GOTOs
   - structs
   - hard to read code (keep in mind a teammate will need to understand your code if you need help)
-  - code templates that contain "ugly" code (e.g. `#define`s, `typedefs`)
+  - code templates that contain "ugly" code (e.g. `#define`, `typedef`)
   - global variables
   - public scope for everything
