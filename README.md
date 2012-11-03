@@ -60,6 +60,14 @@ $ git push origin
 - Identify the easier problems and solve those first.
   - Look at the live scoreboard to see which problems are quickly and often solved.
 - Use multiple terminal windows. Having to close your editor every time to compile and run your program is slow.
+- Have one person type up all sample input and I/O code beforehand, while the
+  others look at the problem set.
+- Know each other's strengths and weaknesses. Consider specialized roles vs multipurpose.
+- Communicate with your teammates, but don't distract them.
+- Don't get tunnel vision. If you get stuck on a problem, have a teammate look
+  at it or attempt another problem if there is enough remaining time.
+- Practice writing actual, compilable code on paper. Avoid pseudocode.
+  It will save you a lot of time.
 - Choose your [printed notes](https://github.com/BrockCSC/acm-icpc/wiki/Online-Resources#wiki-books) wisely and know how/when to reference them.
 - Don't debug at the computer. Print your code and switch spots with a teammate.
 - You can break coding guidelines & styleguides for contest settings, so it's okay to use
