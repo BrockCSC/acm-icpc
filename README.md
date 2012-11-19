@@ -6,11 +6,12 @@ A repository along with a [wiki](https://github.com/BrockCSC/acm-icpc/wiki) for 
 
 Post your solutions, libraries, guides, tutorials, or anything you think is helpful.
 
-**IMPORTANT**: I'm looking for someone (preferably at Brock) to adopt this project and maintain it. Please [contact me](http://dennisideler.com) if interested.
+**IMPORTANT**: I'm looking for someone (preferably at Brock) to adopt this project and maintain it. Please [contact me](http://dennisideler.com) if interested. This repo could use some cleaning and a lot more solved problems.
 
 ### Getting Started
 
-Read the **[wiki](https://github.com/BrockCSC/acm-icpc/wiki)**. Anyone can edit the wiki.
+1. Subscribe to the [Brock ACM-ICPC mailing list](https://groups.google.com/d/forum/brock-acm-icpc).
+2. Read the **[wiki](https://github.com/BrockCSC/acm-icpc/wiki)**. Anyone can edit the wiki.
 
 #### Contributing
 - Members of the *BrockCSC* organization have push and pull access, so you just need to clone this repo.
