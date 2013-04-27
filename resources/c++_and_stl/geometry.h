@@ -7,6 +7,8 @@
 
 // TODO: use const where appropriate
 // NOTE: Do not bother using 'const' when copying for programming contests.
+// NOTE: When working with floating point, checking for equality as
+//       fabs(a - b) < EPS is faster than a == b.
 
 #include <cmath>
 
@@ -25,52 +27,40 @@ double RAD_to_DEG(double r) { return r * 180.0 / PI; }
 
 // struct point_i { int x, y; }; // Minimalist version.
 
-struct point_i  // Use when points given in integers.
+struct point_i  // Use whenever possible or points given in integers.
 {
   int x, y;
-
-  point_i(void) : x(0), y(0) {}
-
-  point_i(int _x, int _y)  // Optional constructor.
-  {
-    x = _x;
-    y = _y;
-  }
+  point_i(int _x = 0, int _y = 0) : x(_x), y(_y) {} // optional constructor
 };
 
-struct point  // Use always or when precision is needed.
+struct point  // Use only when extra precision is needed.
 {
   double x, y;
-  
-  point(void) : x(0.0), y(0.0) {}
-
-  point(double _x, double _y)
-  {
-    x = _x;
-    y = _y;
-  }
+  point(double _x = 0.0, double _y = 0.0) : x(_x), y(_y) {}
 
   // Override 'less than' operator for sorting.
   // Ex: if we have vector<point> P, then sort(P.begin(), P.end())
   bool operator < (const point &other) const
   {
     if (fabs(x - other.x) > EPS)
-      return x < other.x;  // First criteria (if x values differ).
-    return y < other.y;  // Second criteria.
+      return x < other.x; 
+    return y < other.y;
   }  // Alternatively, can have a comparison function for point objects.
 };
 
+// True if two points are the same.
 bool areSame(const point_i &p1, const point_i &p2)
 {
   return p1.x == p2.x && p1.y == p2.y;
 }
 
+// True if two points are the same.
 bool areSame(const point &p1, const point &p2)
 {
   return fabs(p1.x - p2.x) < EPS && fabs(p1.y - p2.y) < EPS;
 }
 
-// Euclidean distance.
+// Euclidean distance between two points.
 double dist(const point &p1, const point &p2)
 {
   // hypot(dx, dy) returns sqrt(dx * dx + dy * dy)
@@ -85,7 +75,7 @@ template<class T> inline T sqr(const T &x)
 // Euclidean distance metric.
 double dist(double x1, double y1, double x2, double y2)
 {
-  return sqrt(sqr(x1 - x2) + sqr(y1 - y2));
+  return sqrt(sqr(x1 - x2) + sqr(y1 - y2)); // same as hypot(x1 - x2, y1 - y2);
 }
 
 // Euclidean Squared distance metric.
@@ -109,13 +99,14 @@ point rotate(point p, double theta)
 /*** 1D objects: Lines ***/
 
 // A line represented as coefficients of ax + by + c = 0.
+// We avoid the line equation y = mx + c.
 struct line
 {
   double a, b, c;
 
   line(point p1, point p2)  // Compute the line equation given 2 points.
   {
-    if (p1.x == p2.x)  // Vertical line: default values.
+    if (fabs(p1.x - p2.x) < EPS)  // Vertical line: default values.
     {
       a = 1.0;
       b = 0.0;
@@ -125,7 +116,7 @@ struct line
     {
       a = -(double)(p1.y - p2.y) / (p1.x - p2.x);
       b = 1.0;
-      c = -(double)(a * p1.x) - (b * p1.y);
+      c = -(double)(a * p1.x) - p1.y;
     }
   }
   
@@ -141,7 +132,7 @@ struct line
     {
       a = -(double)(y1 - y2) / (x1 - x2);
       b = 1.0;
-      c = -(double)(a * x1) - (b * y1);
+      c = -(double)(a * x1) - y1;
     }
   }
 
@@ -153,12 +144,14 @@ struct line
   }
 };
 
-bool areParallel(line l1, line l2)  // Check if coefficients a == b.
+bool areParallel(line l1, line l2)  // Check coefficient a + b.
 {
   return (fabs(l1.a - l2.a) < EPS) && (fabs(l1.b - l2.b) < EPS);
 }
 
-bool areSame(line l1, line l2)  // Check if parallel & coefficients c are equal.
+// True if two line segments are on the same line.
+// Note that the line segments do not have to be the same for this to be true!
+bool areSame(line l1, line l2)  // Check coefficients a + b + c.
 {
   return areParallel(l1, l2) && (fabs(l1.c - l2.c) < EPS);
 }
@@ -173,9 +166,9 @@ bool areIntersect(line l1, line l2, point &p)
   // Solve system of 2 linear algebraic equations with 2 unknowns.
   p.x = (l2.b * l1.c - l1.b * l2.c) / (l2.a * l1.b - l1.a * l2.b);
   if (fabs(l1.b) > EPS)  // Special case: test for vertical line.
-    p.y = -(l1.a * p.x + l1.c) / l1.b;
-  else
-    p.y = -(l2.a * p.x + l2.c) / l2.b;
+    p.y = -(l1.a * p.x + l1.c);
+  else  // l1.b and l2.b cannot be parallel (both 0) at this stage...
+    p.y = -(l2.a * p.x + l2.c);
   return true;
 }
 
@@ -191,12 +184,14 @@ struct vec  // Vector is a line segment with a direction.
 
   vec(point p1, point p2)  // Given two end points.
   {
-    x = p2.x - p1.x;  // TODO: should it be fabs value?
+    x = p2.x - p1.x;
     y = p2.y - p1.y;
   }
 };
 
-vec scaleVector(vec v, double s)  // Scales the magnitude of the vector.
+// Returns a vector with its magnitude scaled by s.
+// s < 1, shorter vector; s = 1, same vector; s > 1, longer vector
+vec scaleVector(vec v, double s)
 {
   return vec(v.x * s, v.y * s);
 }
@@ -206,7 +201,11 @@ point translate(point p, vec v)  // Translate p according to v.
   return point(p.x + v.x, p.y + v.y);
 }
 
-void closestPoint(line l, point p, point &ans)  // Same as distToLine().
+// Returns the closest point (in ans, by reference) from point p to line l.
+// Does the same as distToLine() but calculates it differently and it doesn't
+// return the (Euclidean) distance from point p to the closest point,
+// which you can easily get with dist(p, ans).
+void closestPoint(line l, point p, point &ans)
 {                                     
   if (fabs(l.b) < EPS)  // Special case 1: vertical line.
   {
@@ -220,32 +219,123 @@ void closestPoint(line l, point p, point &ans)  // Same as distToLine().
     ans.y = -(l.c);
     return;
   }
-  
+  // Create a perpendicular (orthogonal) line using point p and slope. 
   line perpendicular(p, 1 / l.a);  // Perpendicular to l and pass through p.
   areIntersect(l, perpendicular, ans);  // Intersection point is closest point.
- }
-
-double distToLine()
-{
-  // TODO
 }
 
-double distToLineSegment()
+// The reflection of point on a (mirror) line.
+void reflectionPoint(line l, point p, point &ans)
 {
-  // TODO
+  point b(0.0, 0.0);
+  closestPoint(l, p, b); // point to line
+  vec v(p, b); // create a vector using the 2 points
+  ans = translate(translate(p, v), v); // translate p twice
 }
 
-double cross(point p0, point p1, point p2)  // Cross product.
+// Returns the dot product between two vectors.
+double dot(vec a, vec b) { return (a.x * b.x + a.y * b.y); }
+
+double norm_sq(vec v) { return v.x * v.x + v.y * v.y; }
+
+// Returns the distance from point p to the line AB (where A != B).
+// Note that it's using the line, not the line segment!
+// The closest point is also stored in point c, the 4th parameter, by reference.
+double distToLine(point p, point A, point B, point &c)
+{
+  // formula: c = A + u * AB
+  vec Ap(A, p), AB(A, B);
+  double u = dot(Ap, AB) / norm_sq(AB);
+  c = translate(A, scaleVector(AB, u));
+  return dist(p, c);
+}
+
+// Similar to distToLine but uses a different formula (not preferred).
+double distToLine2(point p, point A, point B, point &c)
+{
+  // formula: cp = A + (p-A).(B-A) / |B-A| * (B-A)
+  double scale = (double)
+    ((p.x - A.x) * (B.x - A.x) + (p.y - A.y) * (B.y - A.y)) /
+    ((B.x - A.x) * (B.x - A.x) + (B.y - A.y) * (B.y - A.y));
+  c.x = A.x + scale * (B.x - A.x);
+  c.y = A.y + scale * (B.y - A.y);
+  return dist(p, c); // Euclidean distance between p and c.
+}
+
+// Returns the distance from point p to the line segment AB (OK if A == B).
+// The closest point is stored in point c, the 4th parameter, by reference.
+double distToLineSegment(point p, point A, point B, point &c)
+{
+  vec Ap(A, p), AB(A, B);
+  double u = dot(Ap, AB) / norm_sq(AB);
+  if (u < 0.0)
+  {
+    c = point(A.x, A.y); // closer to A
+    return dist(p, A); // Euclidean distance between p and A
+  } 
+  if (u > 1.0)
+  {
+    c = point(B.x, B.y); // closer to B
+    return dist(p, B); // Euclidean distance between p and B
+  }
+  return distToLine(p, A, B, c);
+}
+
+// Similar to distToLineSegment but uses a different formula (not preferred).
+double distToLineSegment2(point p, point A, point B, point &c)
+{
+  if ((B.x - A.x) * (p.x - A.x) + (B.y - A.y) * (p.y - A.y) < EPS)
+  {
+    c.x = A.x;
+    c.y = A.y; // closer to A
+    return dist(p, A); // Euclidean distance between p and A
+  }
+  if ((A.x - B.x) * (p.x - B.x) + (A.y - B.y) * (p.y - B.y) < EPS)
+  {
+    c.x = B.x;
+    c.y = B.y; // closer to B
+    return dist(p, B); // Euclidean distance between p and B
+  }
+  return distToLine(p, A, B, c);
+}
+
+// Returns the angle aob in radians.
+// Use RAD_to_DEG() to convert it to degrees.
+double angle(point a, point o, point b)
+{
+  vec oa(o, a), ob(o, b);
+  return acos(dot(oa, ob) / sqrt(norm_sq(oa) * norm_sq(ob)));
+}
+
+// Returns the cross product of 3 points.
+double cross(point p0, point p1, point p2)
 {
   return (p2.x - p1.x) * (p0.y - p1.y) - (p2.y - p1.y) * (p0.x - p1.x);
 }
 
-bool collinear(point p0, point p1, point p2)  // True if p2 is on line p0p1.
+// Returns the cross product of 2 vectors.
+double cross(vec a, vec b) { return a.x * b.y - a.y * b.x; }
+
+// Collinear (true) if p2 is on the line p0p1.
+bool collinear(point p0, point p1, point p2)
+{
+  return fabs(cross(vec(p0, p1), vec(p0, p2))) < EPS;
+}
+
+// Similar to collinear but uses point arithmetic instead of vector arithmetic.
+bool collinear2(point p0, point p1, point p2)
 {
   return fabs(cross(p0, p1, p2)) < EPS;
 }
 
-bool ccw(point p0, point p1, point p2)  // True if p2 is left from p0p1.
+// Counter-clock wise (true) if p2 is on the left of line p0p1.
+bool ccw(point p0, point p1, point p2)
+{
+  return cross(vec(p0, p1), vec(p0, p2)) > 0; // Doesn't check for == 0.
+}
+
+// Similar to ccw but uses points arithmetic instead of vector arithmetic.
+bool ccw2(point p0, point p1, point p2)
 {
   return cross(p0, p1, p2) > 0;  // Doesn't check for == 0 (i.e. collinear).
 }
@@ -256,6 +346,8 @@ bool nonLeftTurn(point p0, point p1, point p2)  // True if right turn or colline
 }
 
 // AC_RUSH begin
+
+// Returns the cross product given 3 point coordinates.
 template<class T> T cross(T x0, T y0, T x1, T y1, T x2, T y2)
 {
   return (x1 - x0) * (y2 - y0) - (x2 - x0) * (y1 - y0);
@@ -274,6 +366,8 @@ int crossOper(double x0, double y0, double x1, double y1, double x2, double y2)
 }
 
 // Checks if two line segments (given by their points) intersect.
+// Note that this does not give you the intersection point!
+// FIXME: Fails its test!
 bool isIntersect(double x1, double y1, double x2, double y2, double x3,
                  double y3, double x4, double y4)
 {
