@@ -17,7 +17,7 @@ struct point { double x, y; // only used if more precision is needed
   point(double _x, double _y) { x = _x, y = _y; } // constructor
 };
 
-int inCircle(point_i p, point_i c, int r) { // all integer version
+int insideCircle(point_i p, point_i c, int r) { // all integer version
   int dx = p.x - c.x, dy = p.y - c.y;
   int Euc = dx * dx + dy * dy, rSq = r * r; // all integer
   return Euc < rSq ? 0 : Euc == rSq ? 1 : 2; } // inside/border/outside
@@ -37,11 +37,11 @@ int main() {
   point_i pt(2, 2);
   int r = 7;
   point_i inside(8, 2);
-  printf("%d\n", inCircle(inside, pt, r)); // 0-inside
+  printf("%d\n", insideCircle(inside, pt, r)); // 0-inside
   point_i border(9, 2);
-  printf("%d\n", inCircle(border, pt, r)); // 1-at border
+  printf("%d\n", insideCircle(border, pt, r)); // 1-at border
   point_i outside(10, 2);
-  printf("%d\n", inCircle(outside, pt, r)); // 2-outside
+  printf("%d\n", insideCircle(outside, pt, r)); // 2-outside
 
   double d = 2 * r;
   printf("Diameter = %.2lf\n", d);
