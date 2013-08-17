@@ -16,7 +16,7 @@ typedef long double             ld;
 typedef vector<int>             vi;
 typedef vector<vi>              vvi;
 typedef pair<int, int>          pii;
-typedef vector<pi>              vii; // vector of integer pairs
+typedef vector<pii>             vii; // vector of integer pairs
 typedef set<int>                si;
 typedef map<string, int>        msi;
 
