@@ -99,6 +99,7 @@ point rotate(point p, double theta)
 /*** 1D objects: Lines ***/
 
 // A line represented as coefficients of ax + by + c = 0.
+// Interactive demo of line equation: http://www.analyzemath.com/line/line.htm
 // We avoid the line equation y = mx + c.
 struct line
 {
@@ -122,7 +123,7 @@ struct line
   
   line(double x1, double y1, double x2, double y2)  // Given point coordinates.
   {
-    if (x1 == x2)  // Vertical line: default values.
+    if (fabs(x1 - x2) < EPS)  // Vertical line: default values.
     {
       a = 1.0;
       b = 0.0;
@@ -144,6 +145,18 @@ struct line
   }
 };
 
+// A line is horizontal if a == 0 and b != 0.
+bool isHorizontal(line l)
+{
+  return fabs(l.a) < EPS && fabs(l.b) > EPS;
+}
+
+// A line is vertical if a != 0 and b == 0.
+bool isVertical(line l)
+{
+  return fabs(l.a) > EPS && fabs(l.b) < EPS;
+}
+
 bool areParallel(line l1, line l2)  // Check coefficient a + b.
 {
   return (fabs(l1.a - l2.a) < EPS) && (fabs(l1.b - l2.b) < EPS);
@@ -156,7 +169,20 @@ bool areSame(line l1, line l2)  // Check coefficients a + b + c.
   return areParallel(l1, l2) && (fabs(l1.c - l2.c) < EPS);
 }
 
-// Checks if two lines intersect. Returns true + intersection point if intersect.
+// True if two lines meet at a right angle (90 degrees).
+bool arePerpendicular(line l1, line l2)
+{
+  // Handle case of vertical and horizontal line.
+  if ((isHorizontal(l1) && isVertical(l2)) || // l1 horizontal, l2 vertical
+      (isHorizontal(l2) && isVertical(l1)))   // l2 horizontal, l1 vertical
+  {
+    return true;
+  }
+  return -(l1.a) * -(l2.a) == -1;
+}
+
+// Checks if two lines (not line segments) intersect.
+// Returns true + intersection point if intersect.
 bool areIntersect(line l1, line l2, point &p)
 {
   if (areSame(l1, l2)) return false;  // All points intersect!
@@ -165,7 +191,7 @@ bool areIntersect(line l1, line l2, point &p)
   // Otherwise 2 lines intersect at some point (Note: lines, not line segments).
   // Solve system of 2 linear algebraic equations with 2 unknowns.
   p.x = (l2.b * l1.c - l1.b * l2.c) / (l2.a * l1.b - l1.a * l2.b);
-  if (fabs(l1.b) > EPS)  // Special case: test for vertical line.
+  if (fabs(l1.b) > EPS)  // Special case: test (line 1) for vertical line.
     p.y = -(l1.a * p.x + l1.c);
   else  // l1.b and l2.b cannot be parallel (both 0) at this stage...
     p.y = -(l2.a * p.x + l2.c);
