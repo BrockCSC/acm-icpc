@@ -26,11 +26,12 @@ typedef map<string, int>        msi;
 #define FORD(i,a,b)     for(VAR(i,a);i>=(b);--i)  // a to b, a > b
 #define FORE(a,b)       for(VAR(a,(b).begin());a!=(b).end();++a) // for each, e.g. FORE(iter, vect) cout << *iter << endl;
 #define SIZE(a)         ((int)((a).size())) // e.g. for (int i = 0; i < SIZE(vect); ++i)
-#define ALL(x)          (x).begin(),(x).end() // e.g. sort(ALL(vect))
+#define ALL(v)          (v).begin(),(v).end() // e.g. sort(ALL(vect))
 #define FILL(x,a)       memset(x,a,sizeof(x))
 #define CLR(x)          memset(x,0,sizeof(x))
 #define VE              vector<int>
 #define SZ              size()
+#define SZ(v)           ((int)(v).size())
 #define PB              push_back
 #define MP              make_pair
 #define FI              first
