@@ -1,4 +1,4 @@
-[![acm-icpc](http://acm.ashland.edu/Images/master.gif "ACM-ICPC ECNA")](http://acm.ashland.edu/)
+![acm-icpc logo](https://cloud.githubusercontent.com/assets/497458/12186297/5296b5a8-b599-11e5-87b0-014c7b01b9db.png)
 
 ### What is this?
 
