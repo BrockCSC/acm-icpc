@@ -1,0 +1,286 @@
+// Z Algo O(N + M)
+vector<int> Zalgo(string s)
+{
+	int L = -1, R = -1; // 1 based comparisons, L = R = 0
+	vector<int> z(s.size() + 1);
+	for (int i = 1; i < s.size(); i++)
+	{
+		if (i > R)
+		{
+			L = R = i;
+			while (R < s.size() && s[R] == s[R - L])
+				R++;
+			z[i] = R - L;
+			R--;
+		}
+		else
+		{
+			if (z[i - L] < R - i + 1)
+				z[i] = z[i - L];
+			else
+			{
+				L = i;
+				while (R < s.size() && s[R - L] == s[R])
+					R++;
+				z[i] = R - L;
+				R--;
+			}
+		}
+	}
+	z[0] = s.size();
+	return z;
+}
+
+//----------------------------------------------------------
+
+// KMP O(N + M)
+vector<int> computePrefix(string pat)
+{
+	int m = pat.size();
+	vector<int> lp(m);
+	for (int i = 1, k = 0; i < m; i++)
+	{
+		while (k > 0 && pat[k] != pat[i])
+			k = lp[k - 1];
+		if (pat[k] == pat[i])
+			lp[i] = ++k;
+		else
+			lp[i] = k;
+	}
+	return lp;
+}
+
+vector<int> KMP(string str, string pat)
+{
+	int n = sz(str);
+	int m = sz(pat);
+	vector<int> longestPrefix = computePrefix(pat);
+	vector<int> ret(n);
+
+	for (int i = 0, k = 0; i < n; i++)
+	{
+		// as long as we can't add one more character in k, get best next prefix
+		while (k > 0 && pat[k] != str[i])
+			k = longestPrefix[k - 1];
+
+		// if we match character in the pattern, move in pattern
+		if (pat[k] == str[i])
+			k++;
+
+		ret[i] = k;
+
+		// if we matched, print it and let's find one more matching
+		if (k == m)
+		{
+//			cout << i - m + 1 << endl;
+			k = longestPrefix[k - 1];
+		}
+	}
+	return ret;
+}
+
+//----------------------------------------------------------
+
+// Hashing Primes
+HASHING PRIMES:
+{	1610612741 - 1073676287 - 805306457 - 402653189}
+
+//----------------------------------------------------------
+
+// Palindromes Using Hashing O(N^2)
+const int N = 5005, mod = 1e9 + 9, base = 31;
+bool palin[N][N];
+
+// try both hashes, O(N) memory and O(N^2)
+int preH[N][N], sufH[N][N];
+// b^1, b^2, b^3, b^4, b^5, b^6
+//			 b^1, b^2, b^3, b^4x
+
+void buildPreHash(const string &x)
+{
+	int n = sz(x);
+	for (int i = 0; i < n; i++)
+	{
+		ll hash = 1;
+		for (int j = i; j < n; j++)
+		{
+			hash = (hash * base + x[j] - 'a') % mod;
+			preH[i][j] = hash;
+		}
+	}
+}
+
+void buildSufHash(const string &x)
+{
+	int n = sz(x);
+	for (int i = n - 1; i >= 0; i--)
+	{
+		ll hash = 1;
+		for (int j = i; j >= 0; j--)
+		{
+			hash = (hash * base + x[j] - 'a') % mod;
+			sufH[i][j] = hash;
+		}
+	}
+}
+
+void buildPalindrome(const string &x)
+{
+	buildPreHash(x);
+	buildSufHash(x);
+	int n = sz(x);
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = i; j < n; j++)
+		{
+			int len = j - i + 1;
+			if (len == 1)
+				palin[i][j] = true;
+
+			if (j + len < n) 		// even
+			{
+				int l = j + 1;
+				int r = j + len;
+				if (sufH[r][l] == preH[i][j])
+					palin[i][r] = true;
+			}
+
+			if (j + len + 1 < n)	// odd
+			{
+				int l = j + 1 + 1;
+				int r = j + len + 1;
+
+				if (sufH[r][l] == preH[i][j])
+					palin[i][r] = true;
+			}
+		}
+	}
+}
+
+//----------------------------------------------------------
+
+// DFA
+// if the characters are capital, change the 'a' to 'A'
+// if there are mixed characters, change the second dimension with the max size
+const int N = 3e5 + 5;
+int dfa[N][26];
+void fill(string &s)
+{
+	for (int i = 0; i < 26; i++)
+		dfa[0][i] = 0;
+
+	dfa[0][s[0] - 'a'] = 1;
+	int x = 0;
+	for (int i = 1; i < (int) (s.size()); i++)
+	{
+		for (int c = 0; c < 26; c++)
+			dfa[i][c] = dfa[x][c];
+		x = dfa[x][s[i] - 'a'];
+		dfa[i][s[i] - 'a'] = i + 1;
+	}
+
+	for (int c = 0; c < 26; c++)
+		dfa[s.size()][c] = dfa[x][c];
+}
+
+//----------------------------------------------------------
+
+// Suffix Array + LCP
+// time (N+M)LOGN , N => array size, M => num of chars.
+struct SuffixArray
+{
+	vector<int> a;
+	int N, m;
+	vector<int> SA, LCP, x, y, w, c;
+
+	SuffixArray(vector<int> _a, int m) :
+			a(_a), N(a.size() + 1), m(m), SA(N), LCP(N), x(N), y(N), w(
+					max(m, N)), c(N)
+	{
+		a.insert(a.begin(), 0);
+		a[0] = 0;
+		DA();
+		kasaiLCP();
+#define REF(X) { rotate(X.begin(), X.begin()+1, X.end()); X.pop_back(); }
+		REF(SA);
+		REF(LCP);
+		a.erase(a.begin());
+		for (int i = 0; i < (int) SA.size(); ++i)
+			--SA[i];
+#undef REF
+	}
+
+	inline bool cmp(const int a, const int b, const int l)
+	{
+		return (y[a] == y[b] && y[a + l] == y[b + l]);
+	}
+
+	void Sort()
+	{
+		for (int i = 0; i < m; ++i)
+			w[i] = 0;
+		for (int i = 0; i < N; ++i)
+			++w[x[y[i]]];
+		for (int i = 0; i < m - 1; ++i)
+			w[i + 1] += w[i];
+		for (int i = N - 1; i >= 0; --i)
+			SA[--w[x[y[i]]]] = y[i];
+	}
+
+	void DA()
+	{
+		for (int i = 0; i < N; ++i)
+			x[i] = a[i], y[i] = i;
+		Sort();
+		for (int i, j = 1, p = 1; p < N; j <<= 1, m = p)
+		{
+			for (p = 0, i = N - j; i < N; i++)
+				y[p++] = i;
+			for (int k = 0; k < N; ++k)
+				if (SA[k] >= j)
+					y[p++] = SA[k] - j;
+			Sort();
+			for (swap(x, y), p = 1, x[SA[0]] = 0, i = 1; i < N; ++i)
+				x[SA[i]] = cmp(SA[i - 1], SA[i], j) ? p - 1 : p++;
+		}
+	}
+
+	void kasaiLCP()
+	{
+		for (int i = 0; i < N; i++)
+			c[SA[i]] = i;
+		for (int i = 0, j, k = 0; i < N; LCP[c[i++]] = k)
+			if (c[i] > 0)
+				for (k ? k-- : 0, j = SA[c[i] - 1]; a[i + k] == a[j + k]; k++)
+					;
+			else
+				k = 0;
+	}
+};
+
+//----------------------------------------------------------
+// Manacher
+vector<int> manacher(string s)
+{
+	int n = s.size();
+	if (n == 0)
+		return vector<int>();
+	n = 2 * n + 1; //Position count
+	vector<int> L(n, 0);
+	L[1] = 1;
+	int C = 1, R = 2, iMirror;
+	int diff = -1;
+	for (int i = 2; i < n; i++)
+	{
+		iMirror = 2 * C - i, L[i] = 0, diff = R - i;
+		if (diff > 0)
+			L[i] = min(L[iMirror], diff);
+		while (((i + L[i]) < n && (i - L[i]) > 0)
+				&& (((i + L[i] + 1) % 2 == 0)
+						|| (s[(i + L[i] + 1) / 2] == s[(i - L[i] - 1) / 2])))
+			L[i]++;
+		if (i + L[i] > R)
+			C = i, R = i + L[i];
+	}
+	return L;
+}
