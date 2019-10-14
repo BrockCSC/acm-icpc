@@ -1,0 +1,7 @@
+- Z Algo
+- Kmp
+- Hashing Primes
+- Palindromes Using Hashing
+- DFA
+- Suffix Array + LCP
+- Manacher
